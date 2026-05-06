@@ -45,33 +45,36 @@ The pipeline automates the entire workflow:
 
 ## 📂 Project Structure
 
+# Project Structure
+
+```bash
 python-voting-app/
 │
 ├── vote/
-│ ├── app.py
-│ ├── requirements.txt
-│ ├── Dockerfile
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── Dockerfile
 │
 ├── Jenkinsfile
 │
 ├── terraform/
-│ ├── main.tf
-│ ├── variables.tf
-│ ├── outputs.tf
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
 │
 ├── docs/
-│ ├── architecture.png
-│ ├── pipeline-flow.png
-│ ├── screenshots/
-│ ├── vpc.png
-│ ├── jenkins.png
-│ ├── ecr.png
-│ ├── alb.png
-│ ├── app-output.png
+│   ├── architecture.png
+│   ├── pipeline-flow.png
+│   ├── screenshots/
+│   ├── vpc.png
+│   ├── jenkins.png
+│   ├── ecr.png
+│   ├── alb.png
+│   ├── app-output.png
 │
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
